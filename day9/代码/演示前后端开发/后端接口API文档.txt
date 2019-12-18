@@ -1,0 +1,6 @@
+1. 注册用户的接口
+    接口地址：  /api/register
+    提交类型：   POST
+    数据字段：  username  用户名     password  密码     nickname  昵称
+    返回格式：  JSON
+    返回数据模板：     { status:0/1,  msg: '' }

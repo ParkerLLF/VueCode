@@ -1,0 +1,7 @@
+1. 双击快速运行 ngrok.exe 应用程序
+
+2. 随机生成三级域名（自动防止重名问题）,其中，80代表要向外暴露的端口号：
+ngrok http [80]
+
+或者人为指定三级域名（存在重名问题）：
+ngrok http -subdomain=[inconshreveable] [80]
